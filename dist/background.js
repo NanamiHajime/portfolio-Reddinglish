@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener((function(){chrome.contextMenus.create({id:"sample",title:"わからない単語をハイライトする",contexts:["selection"]})})),chrome.contextMenus.onClicked.addListener((function(e,n){console.log("Saved new word")}));

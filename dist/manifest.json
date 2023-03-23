@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Reddinglish",
+    "version": "0.0.1",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "description": "あああ",
+    "permissions": [
+        "tabs",
+        "contextMenus"
+    ],
+    "host_permissions": [
+        "https://www.reddit.com/"
+    ]
+}
